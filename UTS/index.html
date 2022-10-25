@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/llogo.png" sizes="50x16" >
+    <title>AndreaJaya</title>
+
+    <link rel="stylesheet" href="css/floating-wpp.css">
+    <script type="jv/script.js" src="js/script.js"></script>
+    <link rel="stylesheets" href="css/style.css">
+
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" href="css/floating-wpp.css">
+    <script type="text/javascript" src="js/floating-wpp.js"></script>
+    
+    <link rel="stylesheet" href="css/https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" 
+    integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />>
+    <link rel = "stylesheet" href = "css/main.css">
+
+</head>
+<body>
+    <!--Kode Dari floating button-->
+    <section id="bttt" class="bttn">
+        <div id="btt"></div>
+        <script type="text/javascript">
+            $(function () {
+                $('#btt').floatingWhatsApp({
+                    popupMessage: 'Hai, apakah ada yang bisa dibantu ?', 
+                    message: "",
+                    showPopup: true,
+                    showOnIE: false,
+                    headerTitle: 'Halo Sobat Sehat',
+                    headerColor: 'blue',
+                    backgroundColor: 'blue',
+                    buttonImage: '<img src="images/logo.png" />'
+                });
+            });
+        </script>
+    </section>
+
+
+    <header class = "header bg-blue">
+        <nav class = "navbar bg-blue">
+            <div class = "container flex">
+                <a href = "index.html" class = "navbar-brand">
+                    <img src = "images/logo.png" height="80px"; width="20px"; alt = "site logo">
+                </a>
+                <button type = "button" class = "navbar-show-btn">
+                    <img src = "images/ham-menu-icon.png">
+                </button>
+
+                <div class = "navbar-collapse bgg-white">
+                    <button type = "button" class = "navbar-hide-btn">
+                        <img src = "images/close-icon.png">
+                    </button>
+                    <ul class = "navbar-nav">
+                        <li class = "nav-item">
+                            <a href = "#Home" class = "nav-link">Home</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "#Tentang Kami" class = "nav-link">Tentang Kami</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "#Emer" class = "nav-link">Emergency</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "#Service" class = "nav-link">Service</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "#Dokter" class = "nav-link">Dokter</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "#artikel" class = "nav-link">Artikel</a>
+                        </li>
+                    </ul>
+                </div> 
+            </div>
+        </nav>
+
+        <div class = "header-inner text-white text-center" id="Home"> 
+            <div class = "container grid">
+                <div class = "header-inner-left">
+                    <h1>Klinik Kesehatan<br> <span>ANDREAJAYA</span></h1>
+                    <p class = "lead">Klinik terbaik pilihan anda </p>
+                    <p class = "text text-md">Silhakan daftar untuk berlangganan, dan dapatkan harga dan tawaran kesehatan dengan bonus "Pelanggan"</p>
+                    <div class = "btn-group">
+                        <a href = "index.html" class = "btn btn-white">Home</a>
+                        <a href = "daftar.html" class = "btn btn-light-blue">Daftar</a>
+                    </div>
+                </div>
+                <div class = "header-inner-right">
+                    <img src = "images/header.png">
+                </div>
+            </div>
+        </div>
+    </header>
+    
+
+    <main>
+        <section id = "about" class = "about py">
+            <div class = "about-inner" id="Tentang Kami">
+                <div class = "container grid">
+                    <div class = "about-left text-center">
+                        <div class = "section-head">
+                            <h2>Tentang Kami</h2>
+                            <div class = "border-line"></div>
+                        </div>
+                        <p class = "text text-lg"> kesehatan yang menyelenggarakan <b>pelayanan kesehatan</b> perorangan yang menyediakan 
+                            pelayanan medis dasar dan/atau spesialistik. Adapun, tenaga Kesehatan adalah setiap orang yang mengabdikan diri 
+                            dalam bidang kesehatan serta memiliki pengetahuan dan/atau keterampilan melalui pendidikan di bidang kesehatan yang 
+                            untuk jenis tertentu memerlukan kewenangan untuk melakukan upaya kesehatan</p>
+                        <a href = "index.html" class = "btn btn-white">Home</a>
+                    </div>
+                    <div class = "about-right flex">
+                        <div class = "img">
+                            <img src = "images/about-img.png">
+                        </div>
+                    </div>
+                </div>  
+            </div>
+        </section>
+        
+
+        
+        <section id = "banner-one" class = "banner-one text-center">
+            <div class = "container text-white">
+                <blockquote class = "lead"><i class = "fas fa-quote-left"></i>Orang yang mengabaikan  <i> kesehatan</i> dirinya adalah orang yang menabung masalah untuk masa depannnya. <i class = "fas fa-quote-right"></i></blockquote>
+                <small class = "text text-sm">- AndreasJaya</small>
+            </div>
+        </section>
+               
+        <section id = "services" class = "services py">
+            <div class = "container" id="Service">
+                <div class = "section-head text-center">
+                    <h2 class = "lead"><B>LAYANAN TERBAIK YANG <br>KAMI BERIKAN</B></h2>
+                    <p class = "text text-lg">  Cara sempurna untuk menunjukkan layanan Klinik Kesehatan AndreaJaya</p>
+                    <div class = "line-art flex">
+                        <div></div>
+                        <img src = "images/4-dots.png">
+                        <div></div>
+                    </div>
+                </div>
+                <div class = "services-inner text-center grid">
+                    <article class = "service-item">
+                        <div class = "icon">
+                            <img src = "images/service-icon-1.png">
+                        </div>
+                        <h3>Cardio Monitoring</h3>
+                        <p class = "text text-sm">Mengukur saturasi oksigen dalam darah dan denyut nadi pada pasien, Rancangan ini berjenis one group post test</p>
+                    </article>
+
+                    <article class = "service-item">
+                        <div class = "icon">
+                            <img src = "images/service-icon-2.png">
+                        </div>
+                        <h3>Medical Treatment</h3>
+                        <p class = "text text-sm">Memberikan perawatan medis kepada pasien dengan tujuan untuk mengatasi penyakit atau cidera</p>
+                    </article>
+
+                    <article class = "service-item">
+                        <div class = "icon">
+                            <img src = "images/service-icon-3.png">
+                        </div>
+                        <h3>Emergency Help</h3>
+                        <p class = "text text-sm">Memberikan bantuan darurat kepada pasien yang membutuhkan pertolongan cepat tanggap dengan penyakit yang krusial</p>
+                    </article>
+
+                    <article class = "service-item">
+                        <div class = "icon">
+                            <img src = "images/service-icon-4.png">
+                        </div>
+                        <h3>First Aid</h3>
+                        <p class = "text text-sm">Memberikan pertolongan segera kepada penderita sakit/cedera/kecelakaan yang membutuhkan penanganan medis dasar</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+        
+
+        
+        <section id = "banner-two" class = "banner-two text-center">
+            <div class = "container grid">
+                <div class = "banner-two-left" id="Emer">
+                    <img src = "images/banner-2-img.png">
+                </div>
+                <div class = "banner-two-right">
+                    <p class = "lead text-white">Ketika kamu butuh pertolongan, langgsung hubungi kami disini.</p>
+
+                    <div class = "btn-group">
+                        <button type="cale" class="btn" onclick="openPopup()">Call Emergency</button>
+                        <div class="cale" id="cale">
+                            <h2>Hubungi Kami Untuk Panggilan Darurat</h2><br> 
+                            <a href="https://web.whatsapp.com/send?phone=6285161869017">0851-6186-9017</a><br>
+                            <button type="submit" class="btn" onclick="closePopup()">Tutup</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+        <section id = "doc-panel" class = "doc-panel py">
+            <div class = "container" id="Dokter">
+                <div class = "section-head">
+                    <h2>Dokter pada <b>AndreaJaya</b></h2>
+                </div>
+
+                <div class = "doc-panel-inner grid">
+                    <div class = "doc-panel-item">
+                        <div class = "img flex">
+                            <img src = "images/doc-1.png" alt = "doctor image">
+                            <div class = "info text-center bg-blue text-white flex">
+                                <p class = "lead">samuel goe</p>
+                                <p class = "text-lg">Medicine</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "doc-panel-item">
+                        <div class = "img flex">
+                            <img src = "images/doc-2.png" alt = "doctor image">
+                            <div class = "info text-center bg-blue text-white flex">
+                                <p class = "lead">elizabeth ira</p>
+                                <p class = "text-lg">Cardiology</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "doc-panel-item">
+                        <div class = "img flex">
+                            <img src = "images/doc-3.png" alt = "doctor image">
+                            <div class = "info text-center bg-blue text-white flex">
+                                <p class = "lead">tanya collins</p>
+                                <p class = "text-lg">Medicine</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id = "posts" class = "posts py">
+            <div class = "container" id="artikel">
+                <div class = "section-head">
+                    <h2>Artikel AndreaJaya</h2>
+                </div>
+                <div class = "posts-inner grid">
+                    <article class = "post-item bg-white">
+                        <div class = "img">
+                            <img src = "images/post-1.jpg">
+                        </div>
+                        <div class = "content">
+                            <h4>SOLUSI TERBAIK UNTUK KESEHATAN DALAM MASA PANDEMI</h4>
+                            <p class = "text text-sm">Klik Tombol Dibawah untuk melanjutkan baca artikel </p>
+
+                            <div class = "buton">
+                                <button class="btn"><a href="Artikel1.html">Click this </a></button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class = "post-item bg-white">
+                        <div class = "img">
+                            <img src = "images/post-2.jpg">
+                        </div>
+                        <div class = "content">
+                            <h4>KONSULTASI MENGENAI KESEHATAN PASIEN YANG TEPAT</h4>
+                            <p class = "text text-sm">Klik Tombol Dibawah untuk melanjutkan baca artikel </p>
+
+                            
+                            <div class = "buton">
+                                <button class="btn"><a href="Artikel2.html">Click this </a></button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class = "post-item bg-white">
+                        <div class = "img">
+                            <img src = "images/post-3.jpg">
+                        </div>
+                        <div class = "content">
+                            <h4>PERBINCAGAN MENGENAI KESEHATAN MASA KINI</h4>
+                            <p class = "text text-sm">Klik Tombol Dibawah untuk melanjutkan baca artikel </p>                          
+                            <div class = "buton">
+                                <button class="btn"><a href="Artikel3.html">Click this </a></button>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id = "contact" class = "contact py">
+            <div class = "container grid">
+                <div class = "contact-left">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3984.578687392938!2d104.79211001381175!3d-2.936696340478999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e3b76e08fb57883%3A0xcf01e8e20368593c!2sJl.%20Betawi%20Raya%2C%20Lebong%20Gajah%2C%20Kec.%20Sematang%20Borang%2C%20Kota%20Palembang%2C%20Sumatera%20Selatan!5e0!3m2!1sid!2sid!4v1666546566083!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class = "contact-right text-white text-center bg-blue">
+                    <div class = "contact-head">
+                        <h3 class = "lead">Berikan Saran</h3> <br>
+                        <p class = "text text-md">Untuk kinerja klinik AndreaJaya, agar lebih baik dan maksimal.</p>
+                    </div>
+                    <form>
+                        <div class = "form-element">
+                            <input type = "text" class = "form-control" placeholder="Your name">
+                        </div>
+                        <div class = "form-element">
+                            <input type = "email" class = "form-control" placeholder="Your email">
+                        </div>
+                        <div class = "form-element">
+                            <textarea rows = "5" placeholder="Your Message" class = "form-control"></textarea>
+                        </div>
+                        <button type = "submit" class = "btn btn-white btn-submit">
+                            <i class = "fas fa-arrow-right"></i> Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
+    <footer id = "footer" class = "footer text-center">
+        <div class = "container">
+            <div class = "footer-text">
+                <a href="index.html"><h1>Copyrigt AndreaJaya</h1></a>
+            </div>
+
+    </footer>
+
+    <script src = "js/script.js"></script>
+</body>
+</html>
